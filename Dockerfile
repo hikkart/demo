@@ -1,9 +1,6 @@
 # use a node base image
 FROM node:10-alpine
 
-# set maintainer
-LABEL maintainer "academy@release.works"
-
 # set a health check
 HEALTHCHECK --interval=5s \
             --timeout=5s \
